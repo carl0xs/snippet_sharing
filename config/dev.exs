@@ -2,8 +2,8 @@ import Config
 
 # Configure your database
 config :snippet_share, SnippetShare.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "snippet",
+  password: "snippet",
   hostname: "localhost",
   database: "snippet_share_dev",
   stacktrace: true,
